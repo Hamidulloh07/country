@@ -75,8 +75,6 @@ let elSiteList = document.querySelector(".hero__list");
 
 for (let count of countrys) {
   let elItem = document.createElement("li");
-
-
   let elText1 = document.createElement("p");
   let elText2 = document.createElement("p");
   let elText3 = document.createElement("p");
@@ -86,8 +84,6 @@ for (let count of countrys) {
   elText2.setAttribute("class", "pcolor") 
   elText3.setAttribute("class", "pcolor") 
   elText4.setAttribute("class", "pcolor") 
-
-
 
   let elImages = document.createElement("img");
   elImages.className = "mb-3 itemimg rounded-top";
@@ -106,5 +102,4 @@ for (let count of countrys) {
   elText4.textContent = `Capital: ${count.capital}`
 
   elSiteList.appendChild(elItem);
-
 }
