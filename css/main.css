@@ -1,0 +1,68 @@
+
+:root{
+  --clr-black:rgb(0, 0, 0);
+  --bg-clr:rgb(255, 255, 255);
+  --btn-bg:rgb(0, 0, 0);
+  --item-bg:white;
+}
+
+.dark{
+  --clr-red:rgb(255, 255, 255);
+  --bg-clr:rgb(26, 26, 26);
+  --btn-bg:rgb(255, 255, 255);
+  --item-bg:rgb(124, 112, 112);
+}
+
+
+
+* {
+  box-sizing: border-box;
+  transition:  0.5s;
+}
+
+body {
+  background-color: var(--bg-clr);
+  font-family: cursive;
+}
+
+
+.hero {
+  margin-top: 130px;
+}
+
+.hero__item {
+  background-color: var(--item-bg);
+}
+
+.pcolor {
+  color: var(--clr-red);
+}
+
+.hero__button {
+  background-color: transparent;
+  border: none;
+  color:var(--btn-bg);
+}
+
+.hero__title {
+  color: var(--clr-red);
+}
+.bi {
+  color: var(--clr-red);
+}
+
+.hero__item p {
+  padding-left: 20px;
+}
+
+.itemimg {
+  width:250px;
+  height:150px;
+}
+
+
+
+
+
+
+
